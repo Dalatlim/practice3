@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.col-2 {
+  width: 16.66666666666667%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
+  float: left;
+}
+
+.socail-media {
+  height: 100vh;
+  display: flex;
+}
+
+.socail-media .app {
+  width: 1000px;
+  background-color: #000033;
+  border-radius: 8px;
+  padding: 15px 10px;
+  
+}
+
+.app .app-header {
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socail-media .app .search input {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 5px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.socail-media .app .app-card p {
+  height: 100%;
+  align-content: end;
+  color: white;
+  padding: 5px 10px;
+}
+
+.socail-media .app .app-card .fecbook {
+  background-color: #0061ff;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.socail-media .app .app-card .yahoo {
+  background-color: #410093;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.socail-media .app .app-card .dropbox {
+  background-color: #0061ff;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.socail-media .app .app-card .wechat {
+  background-color: #09b83e;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.socail-media .app .app-card .reddit {
+  background-color: #ff5700;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+.socail-media .app .app-card .line {
+  background-color: #00c300;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+.socail-media .app .app-card .heackernews {
+  background-color: #660000;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+.socail-media .app .app-card .soundcloud {
+  background-color: #ff3300;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.socail-media .app .app-card .slideshare {
+  background-color: #660066;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.socail-media .app .app-card .youtube {
+  background-color: #cd201f;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.socail-media .app .app-card .whatsapp {
+  background-color: #3c7601;
+  border-radius: 8px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.clear {
+ clear: both;
+}
